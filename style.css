@@ -1,0 +1,52 @@
+body
+{
+  color: white;
+  background-image: linear-gradient(to left bottom, #0051ff, #21106d, #4c15e4, #4332a8, #4052f3, #161d7e, #011aaa, #0004ff, #383bd4, #5263f8, #0003d0, #2023da);
+}
+span
+{
+  font-size: 30px;
+}
+#transpnder , #reading
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: rgb(90, 218, 16);
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+#header{
+  font-size: 30px;
+  width:60%;
+  letter-spacing:5px;
+  border-top-left-radius: 13cm;
+  border-bottom-right-radius: 23;
+  border-bottom-left-radius: 16;
+  border-top-right-radius: 10;
+  
+
+}
+label{
+  
+  background: #e04141; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dfdb0f, #0050e6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00ff40, #b92828); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 25px;
+}
+
+#nice{
+  color: cornsilk;
+}

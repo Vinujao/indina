@@ -25,3 +25,11 @@ classifier=ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/g
 function modelloaded(){
     console.log("The model in load")
 }
+
+function speak() {
+    api=window.speechSynthesis
+    Speechdata1="First prediction is "+prediction1
+    Speechdata2="And the second prediction is"+prediction2
+    utterthis=new SpeechSynthesisUtterance(Speechdata1+Speechdata2)
+    api.speak(utterthis)
+}
